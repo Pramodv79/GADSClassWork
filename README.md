@@ -3,9 +3,13 @@ Class Work Repo for GA Data Science used for submitting homework
 **Lesson 4 Homework: Command Line Chipotle**
 1. Command Line Tasks
     Look at the head and the tail of chipotle.tsv in the data subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
+    <br>
     `head chipotle.tsv`
+    <br>
     `Tail chipotle.tsv`
+    <br>
     Each row represents an order for an purchase. Each column represents attributes of the order.
+    </br>
     
 2. How many orders do there appear to be?
 3. How many lines are in this file?
