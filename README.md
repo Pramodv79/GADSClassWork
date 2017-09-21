@@ -1,2 +1,2 @@
-# GADSClassWork
-Class Work repo for GA Data Science
+# General Assembly - Data Science ClassWork
+Class Work Repo for GA Data Science used for submitting homework
