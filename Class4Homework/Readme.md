@@ -12,11 +12,20 @@ This folder contains solutions for class 4 homework. Answers are listed under th
     </br>
     
 2. How many orders do there appear to be?
-
+    <br>
+    Approach: Cut the file with only order id as column, sort by that column, perform a uniq operation. count the lines.
+    '
+    cut -f1 chipotle.tsv > chipotle_OrderColumn.tsv
+    sort chipotle_OrderColumn.tsv > chipotle_Sorted_OrderColumn.tsv
+    uniq chipotle_Sorted_OrderColumn.tsv > chipotle_uniq_sorted_order_column.tsv
+    wc -l chipotle_uniq_sorted_order_column.tsv 
+    '
+    There are **1834** unique orders in the file. The above operation could also be performed by using | to feed output of first command into the next command. I created filed here for clarity purposes.
 3. How many lines are in this file?
   <br>
   `wc -l chipotle.tsv`
   <br>
+  There are **4622** lines in the file
 4. Which burrito is more popular, steak or chicken?
   <br>
   ''
