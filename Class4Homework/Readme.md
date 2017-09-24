@@ -26,19 +26,20 @@ This folder contains solutions for class 4 homework. Answers are listed under th
     There are **1834** unique orders in the file. The above operation could also be performed by using | to feed output of first command into the next command. I created filed here for clarity purposes.
     <br>
 3. How many lines are in this file?
-  <br>
+    <br>
   `wc -l chipotle.tsv`
-  <br>
-  There are **4622** lines in the file
-  <br>
+    <br>
+  There are **4622** lines in the file.  
+    <br>
 4. Which burrito is more popular, steak or chicken?
-  <br>
-  `grep -c 'Chicken Burrito' chipotle.tsv
+    <br>
+  `grep -c 'Chicken Burrito' chipotle.tsv. 
    grep -c 'Steak Burrito' chipotle.tsv`
    <br>
-   553 chipotle_ChickenBurrito.tsv
-   368 chipotle_SteakBurrito.tsv
-    Answer: Chicken is more popular than steak
+   553 chipotle_ChickenBurrito.tsv. 
+   368 chipotle_SteakBurrito.tsv. 
+   <br>
+   Answer: Chicken is more popular than steak.  
   <br>
 5. Do chicken burritos more often have black beans or pinto beans?
   <br>
