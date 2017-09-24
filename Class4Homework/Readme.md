@@ -34,8 +34,8 @@ This folder contains solutions for class 4 homework. Answers are listed under th
 4. Which burrito is more popular, steak or chicken?
   <br>
   `grep -c 'Chicken Burrito' chipotle.tsv
-   grep -c 'Steak Burrito' chipotle.tsv
-   `
+   grep -c 'Steak Burrito' chipotle.tsv`
+   <br>
    553 chipotle_ChickenBurrito.tsv
    368 chipotle_SteakBurrito.tsv
     Answer: Chicken is more popular than steak
@@ -44,6 +44,7 @@ This folder contains solutions for class 4 homework. Answers are listed under th
   <br>
   `grep 'Chicken Burrito' chipotle.tsv | grep -c 'Black Beans'
    grep 'Chicken Burrito' chipotle.tsv | grep -c 'Pinto Beans'`
+   <br>
   282
   105
   Answer:Chicken Burritos have black beans more often than pinto beans
@@ -59,5 +60,6 @@ This folder contains solutions for class 4 homework. Answers are listed under th
   <br>
 8. Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
   <br>
-  ``
+  `cut -f 3 chipotle.tsv |sort |uniq |wc -l`
   <br>
+  Answer: There are 50 unique items which are sold from chippotle in te given data
